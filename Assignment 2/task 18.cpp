@@ -37,13 +37,13 @@ int main(){
         cout << num1 << " " << operation << " " << num2 << " = " << num1 + num2 << endl;
     }
     else if(operation == '-'){
-        cout << num1 << " " << operation << " " << num2 << " = " << num1 + num2 << endl;
+        cout << num1 << " " << operation << " " << num2 << " = " << num1 - num2 << endl;
     }
      else if(operation == '*'){
-        cout << num1 << " " << operation << " " << num2 << " = " << num1 + num2 << endl;
+        cout << num1 << " " << operation << " " << num2 << " = " << num1 * num2 << endl;
     }
     else if(operation == '/' && num2 != 0){
-        cout << num1 << " " << operation << " " << num2 << " = " << num1 + num2 << endl;
+        cout << num1 << " " << operation << " " << num2 << " = " << num1 / num2 << endl;
     }
     else {
         cout << "Operation Doesn't Exist" << endl;

@@ -6,7 +6,7 @@ using namespace std;
 int main(){
 
     cout << "Hassam Sohail\t\tSU92-BSSEM-S24-017" << endl;
-    cout << "Questions no 10" << endl;
+    cout << "Questions no 11" << endl;
     cout << endl;
     cout << endl;
    

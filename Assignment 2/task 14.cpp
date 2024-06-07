@@ -28,6 +28,12 @@ int main(){
     cin >> currentBalance;
     cout << endl;
 
+    if(account_type == 'S'){
+        account_type = 's';
+    } else if (account_type == 'C'){
+        account_type = 's';
+        }
+
     if(currentBalance < minBalance){
         if(account_type == 's'){
             service_charge = 10;
@@ -37,6 +43,7 @@ int main(){
             service_charge = 10;
             message = "Service charge of 10$ charged because balance is below threshhold...";
         }
+        currentBalance -= service_charge;
 
     }
     else{
@@ -60,6 +67,7 @@ int main(){
     cout << "Account Number: " << account_number << endl;
     cout << "Account Type: " << (account_type == 's' ? "Savings" : "Checking") << endl;
     cout << "Current Balance: $" << currentBalance << endl;
+    cout << "Total Service Charge: $" << service_charge << endl;
     cout << message << endl;
 
 

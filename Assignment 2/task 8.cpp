@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>>
 
 
 using namespace std;
@@ -24,7 +25,7 @@ int main(){
 
     force = gravitation_constant * ((mass_of_body_1 * mass_of_body_2) / (distance * distance));
 
-    cout << "Force of Attraction between two masses: " << force << endl;
+    cout << "Force of Attraction between two masses: " << fixed << force << endl;
 
 
     return 0;
